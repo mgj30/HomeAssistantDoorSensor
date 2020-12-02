@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name DoorSensor)(type KiCad)(uri ${KIPRJMOD}/DoorSensor.pretty)(options "")(descr ""))
+)
