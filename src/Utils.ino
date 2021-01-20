@@ -23,8 +23,8 @@ void initWifiSettings()
 {
 
     //default values wifi
-    wifi_config["WIFI_SSID"] = "Munoz_Zyatkova_test";
-    wifi_config["WIFI_PWD"]  = "rh5pq62m";
+    wifi_config["WIFI_SSID"] = "SSID";
+    wifi_config["WIFI_PWD"]  = "pass";
   
   Serial.println("");
   Serial.print("initWifiSettings" );
@@ -34,9 +34,9 @@ void initWifiSettings()
 void initMqttSettings()
 {
 
-    mqtt_config["mqttUser"]="admin";
-    mqtt_config["mqttPassword"]="rh5pq62m";
-    mqtt_config["mqtt_server"]="jmmunoz2.ddns.net";
+    mqtt_config["mqttUser"]="username";
+    mqtt_config["mqttPassword"]="pass";
+    mqtt_config["mqtt_server"]="brocker_name";
     mqtt_config["mqtt_clientId"]=nameSensor;
   
   Serial.println("");
